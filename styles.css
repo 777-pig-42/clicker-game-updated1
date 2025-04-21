@@ -1,0 +1,47 @@
+* {
+    font-family: Inter;
+}
+#counter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#count-2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#click {
+    border: none;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    display: block;
+    border-radius: 5px;
+    background-color: lightgray;
+    transition: background-color 0.5s ease;
+}
+#click:hover {
+    background-color: lightblue;
+}
+.shop {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: column;
+}
+.shop .container div {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.shop div button {
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    transition: background-color 0.5s ease;
+}
+.shop div button:hover {
+    background-color: lightblue;
+}

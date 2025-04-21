@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.6">
+        <meta charset="UTF-8">
+        <title>Clicker Game</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script src="clickerGame.js"></script>
+    </head>
+
+    <body>
+        <h1 id="counter">0</h1>
+        <h1 id="count-2">CPC: <span id="counter2">1</span></h1>
+        <button id="click">click me!</button>
+        <section class="shop">
+            <div class="container">
+                <label for="basic">Basic Items</label>
+                <div id="basic" class="basic">
+                    <button onclick="increaseCPC(50, 1)">+1 CPC <br> -50 Score</button>
+                    <button onclick="increaseCPC(90, 2)">+2 CPC <br> -90 Score</button>
+                    <button onclick="increaseCPC(130, 5)">+5 CPC <br> -130 Score</button>
+                    <button onclick="increaseCPC(300, 10)">+10 CPC <br> -300 Score</button>
+                    <button onclick="increaseCPC(3920, 60)">+60 CPC <br> -3920 Score</button>
+                    <button onclick="increaseCPC(9000, 130)">+130 CPC <br> -9000 Score</button>
+                </div>
+            </div>
+            <div class="container">
+                <label for="basic">Expensive Items</label>
+                <div id="rare" class="rare">
+                    <button onclick="increaseCPC(100000, 1200)">+1,200 CPC <br> -100,000 Score</button>
+                    <button onclick="increaseCPC(500000, 5000)">+5,000 CPC <br> -500,000 Score</button>
+                    <button onclick="increaseCPC(700000, 12000)">+12,000 CPC <br> -700,000 Score</button>
+                    <button onclick="increaseCPC(1000000, 60000)">+60,000 CPC <br> -1,000,000 Score</button>
+                    <button onclick="increaseCPC(10000000, 720000)">+720,000 CPC <br> -10,000,000 Score</button>
+                    <button onclick="increaseCPC(100000000, 38290000)">+38,290,000 CPC <br> -100,000,000 Score</button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
