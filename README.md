@@ -1,1 +1,1 @@
-do not steal my code without permission from me
+do not steal my code from me
